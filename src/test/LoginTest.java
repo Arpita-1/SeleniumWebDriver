@@ -17,7 +17,7 @@ public class LoginTest {
 		driver.get("https://www.simplilearn.com/");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(5000, TimeUnit.MILLISECONDS);
-		/* Step1*/
+		//Step1
 		WebElement loginlink=driver.findElement(By.linkText("Log in"));
 		loginlink.click();
 		
